@@ -6,4 +6,4 @@ import { Component } from '@angular/core';
 	styleUrls: ['./my.component.css']
 })
 
-export class MyComponent {} 
+export class MyComponent {}  
