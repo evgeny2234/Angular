@@ -7,15 +7,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NgifelseComponent {
 
-	carName = "";
-	addCarStatus = false;
+	carName = "Name";
+	carID = "ID";
+	carNameClick = "";
+
 
     constructor() {
 
     }
 
-    addCar() {
-    	this.addCarStatus = true;
+    addCar(event) {
+    	this.carNameClick = this.carName;
     }
 
 }

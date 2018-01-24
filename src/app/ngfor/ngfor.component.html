@@ -1,0 +1,27 @@
+
+<!--<span>{{carName}}</span>-->
+
+
+<input type="text" name="" class="form-control" [(ngModel)]="newCar">
+<button class="btn btn-primary" (click)="addNewCar()" >Добавить в массив</button>
+<button class="btn btn-primary" (click)="removeCar()" >Удалить из массива</button>
+
+<br>
+<span>список машин:</span>
+<p *ngFor="let car of cars">{{car}}</p>
+
+<p>!!!!!!</p>
+	<span>{{carName}}</span>
+	<span>{{carID}}</span>
+<p>!!!!!!</p>
+
+
+<br>
+<br>
+<br>
+
+<ul>
+	<li *ngFor="let item of items; let indx = index">
+		<b>{{indx}}</b> - <i>{{item.item}}</i>
+	</li>
+</ul>

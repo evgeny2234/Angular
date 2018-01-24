@@ -1,9 +1,10 @@
-<div class="separator"></div>
+
+
+<app-ngfor [carName]="carName" [carID]="carID">
+	
+</app-ngfor>
+
 
 <input type="text" name="" class="form-control" [(ngModel)]="carName" >
 <button class="btn btn-primary" (click)="addCar()">Добавить Машину</button>
-
-<p *ngIf="!addCarStatus; else successStatus">Машина не добавлена</p>
-<ng-template #successStatus>
-	<p>Машина добавлена</p>
-</ng-template>
+<span>{{carNameClick}}</span>
