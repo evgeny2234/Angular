@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { MyComponent } from './my/my.component';
 import { CarsComponent } from './cars/cars.component';
 import { CarComponent } from './car/car.component';
+import { NgifelseComponent } from './ngifelse/ngifelse.component';
 
 
 @NgModule({
@@ -13,7 +14,8 @@ import { CarComponent } from './car/car.component';
     AppComponent,
     MyComponent,
     CarsComponent,
-    CarComponent
+    CarComponent,
+    NgifelseComponent
   ],
   imports: [
     BrowserModule, FormsModule
