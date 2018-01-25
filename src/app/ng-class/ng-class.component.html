@@ -1,0 +1,12 @@
+
+<ul>
+	<li *ngFor="let name of names; let idx = index" >
+		<div 
+			[ngStyle]="{'backgroundColor': (idx + 1) % 2 === 0 ? 'lightgrey' : 'transparent', color: 'yellow', border: '1px solid black'}" 
+			[ngClass]="{'big_class': setBigCarText(name) }"
+		>
+		<b>
+			{{idx}} - {{name}}
+		</b></div>
+	</li>
+</ul>

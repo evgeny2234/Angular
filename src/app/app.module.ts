@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { CarsComponent } from './cars/cars.component';
 import { NgifelseComponent } from './ngifelse/ngifelse.component';
 import { NgforComponent } from './ngfor/ngfor.component';
+import { NgClassComponent } from './ng-class/ng-class.component';
 
 
 @NgModule({
@@ -13,7 +14,8 @@ import { NgforComponent } from './ngfor/ngfor.component';
     AppComponent,
     CarsComponent,
     NgifelseComponent,
-    NgforComponent
+    NgforComponent,
+    NgClassComponent
   ],
   imports: [
     BrowserModule, FormsModule
