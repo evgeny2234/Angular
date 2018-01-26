@@ -1,0 +1,8 @@
+
+<input type="text" name="" id="" class="form-control" [(ngModel)]="carName" >
+<input type="text" name="" id="" class="form-control" [(ngModel)]="carYear" >
+<input type="button" class="btn btn-primary" value="Добавить машину" (click)="addCar()" >
+
+<ul>
+  <app-car *ngFor="let car of cars; let idx = index" [carItem]="car"></app-car>
+</ul>
