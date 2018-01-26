@@ -10,6 +10,9 @@ import { NgClassComponent } from './ng-class/ng-class.component';
 import { PipesComponent } from './pipes/pipes.component';
 import { CarComponent } from './params/car/car.component';
 import { CarssComponent } from './params/carss/carss.component';
+import { AddTableComponent } from './getData/add-table/add-table.component';
+import { TableComponent } from './getData/table/table.component';
+import { TablesComponent } from './getData/tables/tables.component';
 
 
 @NgModule({
@@ -21,7 +24,10 @@ import { CarssComponent } from './params/carss/carss.component';
     NgClassComponent,
     PipesComponent,
     CarComponent,
-    CarssComponent
+    CarssComponent,
+    AddTableComponent,
+    TableComponent,
+    TablesComponent
   ],
   imports: [
     BrowserModule, FormsModule

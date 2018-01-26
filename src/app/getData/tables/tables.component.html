@@ -1,0 +1,3 @@
+<app-add-table (onAddTable)="updateTableList($event)"></app-add-table>
+<hr>
+<app-table *ngFor="let table of tables" [tableItem]="table"></app-table>
